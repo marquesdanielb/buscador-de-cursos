@@ -1,0 +1,17 @@
+{
+    "name": "marquesdanielb/buscador-cursos",
+    "description": "Buscador de cursos da alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Marquesdanielb\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Marques Barbosa",
+            "email": "marquesdanielb@gmail.com"
+        }
+    ],
+    "require": {}
+}
