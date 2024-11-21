@@ -27,15 +27,15 @@ class ComposerStaticInit418cf6e371eb2c1028afc291a42afd7d
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
         ),
-        'M' => 
-        array (
-            'Marquesdanielb\\BuscadorCursos\\' => 30,
-        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+        ),
+        'A' => 
+        array (
+            'Alura\\BuscadorDeCursos\\' => 23,
         ),
     );
 
@@ -65,10 +65,6 @@ class ComposerStaticInit418cf6e371eb2c1028afc291a42afd7d
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
         ),
-        'Marquesdanielb\\BuscadorCursos\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
@@ -80,6 +76,10 @@ class ComposerStaticInit418cf6e371eb2c1028afc291a42afd7d
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'Alura\\BuscadorDeCursos\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
