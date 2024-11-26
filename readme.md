@@ -42,3 +42,27 @@ O Composer suporta o padrão **PSR-4**, que define a estrutura de namespaces par
       "Vendor\\Namespace\\": "src/"
     }
   }
+
+- **Comando para gerar o autoloader**:
+```
+composer dumpautoload
+```
+
+- **Classmap**: Para classes que não seguem PSR-4.
+- **Fiiles**: Para carregar automaticamente bibliotecas de funções.
+
+## 📋 Scripts no Composer
+Os scripts no Composer são configurados no **composer.json** e permitem automatizar tarefas:
+
+- **Exemplo de script no composer.json**:
+    ```json
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs",
+        "analyze": "phan"
+    }
+
+- **Comando para executar scripts**:
+```
+composer run-script <nome-do-script>
+```
